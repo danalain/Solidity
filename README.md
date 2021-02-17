@@ -86,7 +86,10 @@ You will need to fill in the constructor parameters with your designated `employ
 
 Test the `deposit` function by sending various values. Keep an eye on the `employee` balances as you send different amounts of Ether to the contract and ensure the logic is executing properly.
 
-<img src="Images/level-1.gif" width="800" />
+|  Level 1 Contract Deployment                      |
+| ------------------------------------------------- |
+| <img src="Images/level-1.gif" width="800" />      |
+
 
 ### Level Two: The `TieredProfitSplitter` Contract
 
@@ -126,7 +129,9 @@ Using the starter code, within the `deposit` function, perform the following:
 
   * Note: The 100 wei threshold is due to the way we calculate the points. If we send less than 100 wei, for example, 80 wei, `points` would equal `0` because `80 / 100` equals `0` because the remainder is discarded. We will learn more advanced arbitrary precision division later in the course. In this case, we can disregard the threshold as 100 wei is a significantly smaller value than the Ether or Gwei units that are far more commonly used in the real world (most people aren't sending less than a penny's worth of Ether).
 
-<img src="Images/level-2.gif" width="800" />
+|  Level 2 Contract Deployment                      |
+| ------------------------------------------------- |
+| <img src="Images/level-2.gif" width="800" />      |
 
 ### Level Three: The `DeferredEquityPlan` Contract
 
@@ -185,6 +190,10 @@ Using the starter code, perform the following:
     ```
 
   * Once you are satisfied with your contract's logic, revert the `fakenow` testing logic.
+
+|  Level 3 Contract Deployment                      |
+| ------------------------------------------------- |
+| <img src="Images/level-3.png" width="400" />      |
 
 * Congratulate yourself for building such complex smart contracts in your first week of Solidity! You are learning specialized skills that are highly desired in the blockchain industry!
 
