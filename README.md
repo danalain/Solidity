@@ -86,7 +86,7 @@ You will need to fill in the constructor parameters with your designated `employ
 
 Test the `deposit` function by sending various values. Keep an eye on the `employee` balances as you send different amounts of Ether to the contract and ensure the logic is executing properly.
 
-![level-1](Images/level-1.gif)
+<img src="Images/level-1.gif" width="800" />
 
 ### Level Two: The `TieredProfitSplitter` Contract
 
@@ -126,7 +126,7 @@ Using the starter code, within the `deposit` function, perform the following:
 
   * Note: The 100 wei threshold is due to the way we calculate the points. If we send less than 100 wei, for example, 80 wei, `points` would equal `0` because `80 / 100` equals `0` because the remainder is discarded. We will learn more advanced arbitrary precision division later in the course. In this case, we can disregard the threshold as 100 wei is a significantly smaller value than the Ether or Gwei units that are far more commonly used in the real world (most people aren't sending less than a penny's worth of Ether).
 
-![level-2](Images/level-2.gif)
+<img src="Images/level-2.gif" width="800" />
 
 ### Level Three: The `DeferredEquityPlan` Contract
 
@@ -194,9 +194,11 @@ Once you feel comfortable with your contracts, point MetaMask to the Kovan or Ro
 
 After switching MetaMask to Kovan, deploy the contracts as before and copy/keep a note of their deployed addresses. The transactions will also be in your MetaMask history, and on the blockchain permanently to explore later.
 
+Enjoy this extra meme as we finished deploying our contracts:
+
 |  Me trying to be a part of the finance revolution like |
 | ------------------------------------------------- |
-| <img src="Images/monkey.gif" width="300" />       |
+| <img src="Images/monkey.gif" width="400" />       |
 
 ## Resources
 
